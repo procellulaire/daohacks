@@ -1,0 +1,32 @@
+Code to embed and protect Content using Unlock protocol, sell NFT access.
+The include 
+<script>
+(function(d, s) {
+  var js = d.createElement(s),
+    sc = d.getElementsByTagName(s)[0];
+  js.src="https://paywall.unlock-protocol.com/static/unlock.latest.min.js";
+  sc.parentNode.insertBefore(js, sc); }(document, "script"));
+</script>
+Use the lock
+<script>
+var unlockProtocolConfig = {
+  // paywallConfig object 
+}
+</script>
+paywallConfig sample
+window.addEventListener('unlockProtocol.status', function(e) {
+  var state = e.detail
+  // the state is a string whose value can either be 'unlocked' or 'locked'...
+  // If state is 'unlocked': implement code here which will be triggered when 
+  // the current visitor has a valid lock key  
+  // If state is 'locked': implement code here which will be
+  // triggered when the current visitor does not have a valid lock key
+})
+Note: the callback can be invoked several times. For example, a visitor might purchase a key while they are on the page, going from the locked to the unlocked state. Similarly, the key that the visitor owns may expire during a visit which would result in the state going from unlocked to locked.
+
+Initiate Checkout
+In order to purchase keys, Unlock provides a modal that lets the user pick the lock of their choice (based on the configuration). The modal can be loaded by invoking the Following
+window.unlockProtocol && window.unlockProtocol.loadCheckoutModal(/* optional configuration*/)
+
+Customize what locks that are available using the loadCheckoutModal call. 
+using an optional configuration object , it has the same shape as the global unlockProtocolConfig
