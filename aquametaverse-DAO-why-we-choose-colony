@@ -1,0 +1,39 @@
+Why we choosed Colony for Aquametaverse DAO
+
+Usernames: Forget illegible blockchain account addresses: Using Colony AquaMetaverse DAO users register a free, unique decentralised username to simplify collaboration. Crypto doesn't have to be complicated.
+
+Profiles: Using the Profile feature the Community DAO user can build his profile to help collaborators understand who he is. The Profile tracks the Aquametaverse.org DAO Community memberships, as well as the actions, permissions, and reputations across all other Colony DAOs.
+
+Subscriptions: The Subscriptions feature allows to explore and subscribe to colonies that pique your interest. They'll show up in a list on the left of the colony interface, allowing for easily switch between the DAOs you care about.
+
+Token Creation: We created 2 tokens to segregate features and use cases like rewarding collaborators and participants, from token distribution and allocations for team members. 
+
+Token Activation: We use the Web widget to deposit and reclaim our tokens from the locking contract Colony uses to let users stake, claim reward distributions, and participate in token votes.
+
+Coin Machine: One way to sell our DAO token is using Coin Machine, it's totally free, 100% of funds go straight to AquaMetaverse DAO to be governed by the community.
+
+Payments: Payments interface is what we can use to send tokens from Aquametaverse DAO to any external address (on the same blockchain) with a single transaction. 
+
+Domains: A DAO Community requires departments, teams, projects, and working groups. They are organized in “Domains”
+
+Permissions: Using the permissioning system enables people or smart contracts to be given fine-grained authority in specific aspects of specific domains within the organization.
+
+Extension manager: We have some extensions to test and integrate when we grow.
+
+Events log: A comprehensive list of all the events emitted by the Aquametaverse DAO Community smart contracts, the events log gives peace of mind that the activity taking place in your Aquametaverse DAO colony is auditable by the community.
+
+Revenue: Receive revenue Aquametaverse DAO wallet address. Received funds can be immediately put to use in your colony's working capital, or distributed to members as Rewards.
+
+Whitelist: This is how we add addresses to our whitelist of people because they have passed our own screening, or KYC/AML process, and/or signed an agreement. 
+
+Reputation: To empower the Aquametaverse community with governance influence weight earned proportional to the value they contribute to the Community DAO. Reputation decays over time to keep the D for “Decentralized” in Aquametaverse Community DAO
+
+Reputation Voting: Using the “lazy consensus” mechanism , it means governance in which it is only needed to vote if there is actually a disagreement about something.
+
+Recovery Mode: Recovery mode is a panic button in case something dangerous seems to be happening in Aquametaverse DAO. If we decide to enter recovery mode , it will no longer be possible for users take any action in the DAO until the emergency is fixed.
+
+Smite: A wise man once said: “With great power comes great responsibility.” Reputation confers that power upon members of the Aquametaverse.ORG DAO. If they abuse the trust the community has placed in them, Smite them to burn away their reputation.
+
+Award Reputation: We need to be able to award reputation to members without also paying them in Aquametaverse DAO native token. This is for that.
+
+xDai & Gasless Metatransactions : end users don't have to pay gas fees when using Metamask, and using the Aquametaverse.org DAO Community on xDai , there is no gas to pay.
